@@ -1,0 +1,26 @@
+[keywords]
+gravitational waves = 5
+gravitational wave = 5
+GW = 3
+LVK = 3
+LIGO = 3
+VIRGO = 3
+KAGRA = 3
+LISA = 3
+BBH = 2
+NSBH = 2
+merger = 1
+
+[options]
+categories = astro-ph.EP
+date = 7
+length = -1
+minimum_rating = 5 
+reverse_list = False
+show_resubmissions = False
+show_cross_lists = True
+
+[authors]
+Will M. Farr = 4
+Ilya Mandel = 4
+Colm Talbot = 4
