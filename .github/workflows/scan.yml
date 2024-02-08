@@ -7,7 +7,7 @@ on:
     
 
 jobs:
-  build:
+  scan:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -23,5 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install arxiv-scan
 
-      - name: execute py script # run main.py
-        run: arxiv-scan --config conf.txt
+      - name: scan # run main.py
+        run: arxiv-scan --config gw.conf
